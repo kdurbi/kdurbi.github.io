@@ -8,8 +8,8 @@ p {
   padding: 10px;
   text-align: right;
   color: white;
-  border: 1px solid rgb(59, 47, 47);
-  background-color: hsla(240, 3%, 38%, 0.445);
+  border: 1px solid cyan;
+  background-color: black;
 }
 
 /* direct targeting of specific html code*/
