@@ -18,8 +18,8 @@ body nav {
 /* the box and border box allow us to change the way an element looks*/
 .box {
   width: auto;
-  padding: 0px;
-  border: 1px solid navy;
+  padding: 10px;
+  border: 1px solid cyan;
   margin: auto;
   text-align: center;
 }
