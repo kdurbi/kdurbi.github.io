@@ -72,6 +72,11 @@ h4 {
   font-size: 30px;
 }
 
+h5 {
+  color: ghostwhite;
+  text-align: center;
+}
+
 p2{
   font-family: cursive;
   color: white;
@@ -80,6 +85,13 @@ p2{
 ul {
 
   color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* the a section must be ordered correctly and dictates the way links act/react*/
