@@ -3,6 +3,7 @@ body {
   }
 
 p {
+  font-family: sans-serif;
   padding: 10px;
   text-align: right;
   color: white;
