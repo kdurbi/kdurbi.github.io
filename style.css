@@ -12,7 +12,7 @@ p {
 
 /* direct targeting of specific html code*/
 body nav {
-  text-align: right;
+  text-align: center;
 }
 
 /* the box and border box allow us to change the way an element looks*/
@@ -67,6 +67,7 @@ h3::before {
 }
 
 h4 {
+  text-align: right;
   font-family: 'Times New Roman', Times, serif;
   color: white;
   font-size: 30px;
@@ -101,7 +102,7 @@ ul {
 
 /* the a section must be ordered correctly and dictates the way links act/react*/
 a:link{
-  color: salmon;
+  color: whitesmoke;
 }
 
 a:visited{
