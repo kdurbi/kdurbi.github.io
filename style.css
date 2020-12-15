@@ -33,7 +33,7 @@ body nav {
 h1 {
   font-family: futura;
   opacity: 60%;
-  color: red;
+  color: hsl(177, 87%, 55%);
   font-size: 50px;
   text-align: center;
 }
@@ -47,7 +47,7 @@ body article h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   opacity: 60%;
   text-align: center;
-  color: red;
+  color: hsl(177, 87%, 55%);
   font-size: 100px;
 }
 
@@ -61,7 +61,7 @@ h3::before {
   border-radius: 50%;
   background-color: grey;
   opacity: 50%;
-  color: red;
+  color: hsl(177, 87%, 55%);
   content: "W";
   font-size: 100px;
 }
@@ -101,7 +101,7 @@ ul {
 
 /* the a section must be ordered correctly and dictates the way links act/react*/
 a:link{
-  color:red;
+  color: salmon;
 }
 
 a:visited{
