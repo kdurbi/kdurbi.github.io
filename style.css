@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+  }
+
+p {
+  padding: 10px;
+  text-align: right;
+  color: white;
+  border: 1px solid rgb(59, 47, 47);
+  background-color: hsla(240, 3%, 38%, 0.445);
+}
+
+body nav {
+  text-align: right;
+}
+
+.box {
+  width: auto;
+  padding: 0px;
+  border: 1px solid navy;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.border-box {
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: futura;
+  opacity: 60%;
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+body article h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  opacity: 60%;
+  text-align: center;
+  color: red;
+  font-size: 100px;
+}
+
+body h3 {
+  text-align: left;
+  /*background-color: black;*/
+  color: white;
+}
+
+h3::before {
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 50%;
+  color: red;
+  content: "W";
+  font-size: 100px;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 30px;
+}
+
+p2{
+  font-family: cursive;
+  color: white;
+}
+
+ul {
+
+  color: white;
+}
+
+
+a:link{
+  color:red;
+}
+
+a:visited{
+  color: lightblue;
+}
+
+a:hover{
+  color: whitesmoke;
+}
+
+a:active{
+  color: cyan;
+}
+
+footer {
+  color: white;
+}
