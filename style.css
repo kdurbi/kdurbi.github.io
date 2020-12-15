@@ -24,11 +24,11 @@ body nav {
   text-align: center;
 }
 
-.box2 {
+.box-two {
   width: auto;
   padding: 0px;
   border: 1px solid cyan;
-  margin: auto;
+  margin: 10px;
   text-align: center;
 }
 
