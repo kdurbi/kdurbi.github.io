@@ -10,10 +10,12 @@ p {
   background-color: hsla(240, 3%, 38%, 0.445);
 }
 
+/* direct targeting of specific html code*/
 body nav {
   text-align: right;
 }
 
+/* the box and border box allow us to change the way an element looks*/
 .box {
   width: auto;
   padding: 0px;
@@ -80,7 +82,7 @@ ul {
   color: white;
 }
 
-
+/* the a section must be ordered correctly and dictates the way links act/react*/
 a:link{
   color:red;
 }

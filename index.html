@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 
+<!-- The head is responsible for letting the brower know how to handle the content and
+referncing any files that need to run before the rest of the program, so that it runs  properly.
+Text encoding, viewport dimensions on certain devices, etc. -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -13,35 +16,42 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
+<!-- This is where the actual content that will be displayed is held. In the body and footer -->
   <body>
     <header>
-        <img src="ThinkImages/creation.jpg" class="box border-box">
+        <img src="ThinkImages/creation.jpg" class="box border-box"> <!-- starting the page with a photo as the header-->
     </header>
 
+<!-- nav bar to quickly and easily jump to a section of the page-->
         <nav>
           <a href="#homePage">Home</a>
           <a href="#aboutMe">About Me</a>
           <a href="#contacts">Contact Me</a>
         </nav>
 
+<!--after the header we see a welcom message. Used ::before method to stylize it-->
   <main>
      <h3>elcome to...</h3>
       <article>
         <h2> My First Webpage</h2>
       </article>
      <h4>Enjoy!</h4>
+
+<!-- section was used to link the hypertext-referencing to the content-->
   <div>
     <section id="homePage" >
 
+                <!-- the image was put inside of a box with a border that we changed to a circle with the border-radius rule -->
          <img src="ThinkImages/shadows.jpg" class="box border-box"><p> Hello, and welcome! This, as the title states, is my first go at creating a webpage using JavaScript, HTML and CSS. I have included details and images that may help you get to know who I am a little more. Take your shoes off and have a look around.
          </p>
     </section>
   </div>
 
-<hr>
+<hr> <!-- Horizontal rule to add style and organization.-->
 
+<!-- my art with alt for the description-->
   <div>
-  <img src="ThinkImages/theEye.jpg"  alt="Something that I made. An eye upclose mostly drawn and shaded with number 2 pencil and left monochromatic except the iris. Which is painted in watercolor to depict the Universe bursting into existence with vibrant colors.">
+    <img src="ThinkImages/theEye.jpg"  alt="Something that I made. An eye upclose mostly drawn and shaded with number 2 pencil and left monochromatic except the iris. Which is painted in watercolor to depict the Universe bursting into existence with vibrant colors.">
   </div>
 
   <section id="aboutMe">
@@ -52,6 +62,7 @@
       </p2>
   </section>
 
+<!-- an unordered list used since these have no level of importance, except the TV part. That's where i used an ordered list-->
        <ul>
          <li>Camp</li>
          <li>Play video games</li>
@@ -67,10 +78,13 @@
 
   </main>
 
+
+<!--this allows us to call our JavaScript page-->
+
     <script src="script.js"></script>
 
   </body>
-<br>
+<br>  <!-- a break to make things line up-->
   <footer>
         <section id="contacts">
           <h4>Contacts</h4>
